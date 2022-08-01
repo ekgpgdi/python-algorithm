@@ -2,6 +2,7 @@
 
 저장하는 데이터의 양이 1개의 공간을 사용한다고 계산
 [예시 1]
+```
 alphabet_array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z"]
 # 26 개의 공간을 사용합니다
 max_occurrence = 0 # 1개의 공간을 사용합니다
@@ -9,6 +10,7 @@ max_alphabet = alphabet_array[0]   # 1개의 공간을 사용합니다.
 
 for alphabet in alphabet_array:
     occurrence = 0  # 1개의 공간을 사용합니다.
+```
 -> alphabet_array 의 길이 = 26 + max_occurrence, max_alphabet, occurrence 변수 = 3
 = 29만큼의 공간이 사용됨
 
